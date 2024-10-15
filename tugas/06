@@ -1,0 +1,37 @@
+class Kendaraan {
+    constructor(jenis) {
+        if (this.constructor === Kendaraan) {
+            throw new Error("Kelas Kendaraan adalah kelas abstrak dan tidak dapat diinstansiasi.");
+        }
+        this.jenis = jenis;
+    }
+
+    beroda() {
+        throw new Error("Metode 'beroda()' harus diimplementasikan.");
+    }
+}
+
+class Motor extends Kendaraan {
+    constructor() {
+        super('Motor');
+    }
+
+    beroda() {
+        console.log(`${this.jenis} beroda 2.`);
+    }
+}
+
+class Mobil extends Kendaraan {
+    constructor() {
+        super('Mobil');
+    }
+
+    beroda() {
+        console.log(`${this.jenis} beroda 4.`);
+    }
+}
+
+const motor = new Motor();
+motor.beroda(); 
+const mobil = new Mobil();
+mobil.beroda();
