@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #FFE4E1;
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,7 +11,7 @@ body {
 }
 
 .input-form {
-    background-color: FFB6C1;
+    background-color: #FFB6C1;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
