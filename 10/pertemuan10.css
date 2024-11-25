@@ -44,14 +44,14 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #FFEBCD;
     transform: translateY(-3px);
 }
 
 button#cancel {
-    background-color: #6c757d;
+    background-color: #DCDCDC;
 }
 
 button#cancel:hover {
-    background-color: #5a6268;
+    background-color: #FFF0F5;
 }
